@@ -8,13 +8,13 @@ const FirstCont = () =>{
     var count = 1;
 
     const octokit = new Octokit({
-      auth: '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',
+      auth: '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',
   
     });
   
     async function Get_repo (){
       var obj_div = document.getElementById('appending_repos');
-      const repos = await octokit.request('GET /*/users/{username}/repos', {
+      const repos = await octokit.request('GET /users/{username}/repos', {
         username: 'KChun510',
         sort: 'updated',
         direction: 'dsc',
@@ -38,7 +38,7 @@ const FirstCont = () =>{
 
 
             /* Need to make an API request for git hub languages */
-            var languages = await octokit.request('GET /*/repos/{owner}/{repo}/languages', {
+            var languages = await octokit.request('GET /repos/{owner}/{repo}/languages', {
                 owner: 'KChun510',
                 repo: repo_arr[repo]['name'],
                 headers: {
