@@ -2,13 +2,14 @@ import './first_cont.css'
 import {Octokit} from "octokit";
 import { useEffect } from "react";
 
+
 const FirstCont = () =>{
     var repo_dic = {}; /* I.e: {repo_nam : [description, langauge, url]} */
 
     var count = 1;
 
     const octokit = new Octokit({
-      auth: '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',
+      auth: process.env.REACT_APP_API_KEY,
   
     });
   
