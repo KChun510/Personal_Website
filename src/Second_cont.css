@@ -1,0 +1,67 @@
+.img1 {
+
+    height: 90%;
+}
+
+
+#second_cont{
+margin-top: 200px;
+}
+
+#info_cont{
+    text-align: left;
+    padding-top: 50px;
+}
+
+#creds_Resume{
+    padding-top: 50px;
+
+}
+
+#img{
+height: 50vh;
+width: 50vh;
+padding-top: 10px;
+}
+
+@media (max-width: 750px) {
+    .hidden-mobile {
+      display: none;
+      
+    }
+  }
+
+button:hover{background-color: rgba(0, 0, 0, 0.5);}
+
+button:active{background-color: rgba(0, 0, 0, 0.5);}
+
+button:focus{background-color: rgba(0, 0, 0, 0.5);}
+  
+.button{
+    border-radius: 50%;
+}
+
+
+.flex-items {
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size:larger;
+    border-bottom: solid 1px;
+    width: 15%; 
+    margin: 40px;
+    justify-content: left;
+  }
+
+.display{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9); ;
+    width: 95vw ;
+    height: 50vh;
+
+}
+
+
+
+ 

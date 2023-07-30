@@ -1,0 +1,48 @@
+#first_cont{
+    text-align: left;
+    margin-top: 50px; 
+}
+#video{
+    aspect-ratio: 16/9;
+    background-color: black;
+}
+
+.passion{
+    height: 490px;
+    background-color: black;
+
+}
+
+.small_text{
+    text-align: center;
+}
+
+
+.menu1{
+    background-color:#c289c0 !important;
+    border-color: transparent !important;
+    border-bottom-width: 1px !important;
+    border-bottom-color: black !important;
+}
+
+.list-group-item:hover {
+    background-color: #977596;
+}
+
+
+
+#scrolldown{
+    display: flex;
+    justify-content: center;
+    transition: .5s;
+    display: var(--display);
+
+}
+
+
+.passion::-webkit-scrollbar {
+    display: none;
+  }
+
+
+

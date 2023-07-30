@@ -1,0 +1,48 @@
+.nav{
+    background-color: transparent;
+    list-style-type: none;
+    text-align: left; 
+    padding: 0;
+    margin: 0;
+}
+
+.nav li{
+    display: inline-block;
+    font-size: 15px;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+#coffee_logo{
+    position:absolute;
+}
+
+#paired_logos{
+    display: inline-block;
+    position: relative;
+    left: 70%;
+ }
+
+ #paired_logos-lin{
+    position: relative;
+    left: 70%;
+ }
+
+ #paired_logos-git{
+    position: relative;
+    left: 74%;
+ }
+
+ #paired_logos-mail{
+    position: relative;
+    left: 77.5%;
+ }
+
+ @media (max-width: 1000px) {
+    .hidden-mobile {
+      display: none;
+      
+    }
+  }
+
+ 
