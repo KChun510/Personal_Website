@@ -17,7 +17,7 @@ const NavBar = () =>{
             </li>
 
             <li id = 'paired_logos-lin' > 
-                <a href="https://www.linkedin.com/in/kyle-chun-6507221b1" className="btn" role="button" target="_blank"
+                <a href="https://www.linkedin.com/in/kyle-c-6507221b1" className="btn" role="button" target="_blank"
                     rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fillRule="currentColor" className="bi bi-linkedin"
                     viewBox="0 0 16 16">
