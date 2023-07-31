@@ -13,32 +13,21 @@
     margin-left: 50px;
 }
 
-#coffee_logo{
-    position:absolute;
-}
 
-#paired_logos{
-    display: inline-block;
-    position: relative;
-    left: 70%;
+
+ #icons{
+   height: 50px;
+   width: 50px;
  }
 
- #paired_logos-lin{
-    position: relative;
-    left: 70%;
+ #icons_paired{
+   height: 40px;
+   width: 40px;
+   margin-left: 40px;;
  }
+ 
 
- #paired_logos-git{
-    position: relative;
-    left: 74%;
- }
-
- #paired_logos-mail{
-    position: relative;
-    left: 77.5%;
- }
-
- @media (max-width: 1000px) {
+ @media (max-width: 750px) {
     .hidden-mobile {
       display: none;
       

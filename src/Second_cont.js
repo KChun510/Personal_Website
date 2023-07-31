@@ -168,7 +168,7 @@ const SecondCont = () => {
                                         <br></br>
 
                                         <div className="container w-100 h-25 text-center">
-                                            <a href="https://docs.google.com/document/d/1hntd_5oO9LEG1VROp7yyMDBYjHeteKE67jbvkK7YihU/edit?usp=sharing"
+                                            <a href="https://github.com/KChun510/Resume/blob/71a1f54c883668f63e285a51f33334c48684a2bb/Profile%20(4).pdf"
                                             target="_blank" rel="noopener noreferrer">
                                             <button type="button" className="btn btn-outline-primary btn-sm">Veiw full resume </button>
                                             </a>
