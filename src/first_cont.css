@@ -8,7 +8,7 @@
 }
 
 .passion{
-    height: 490px;
+    aspect-ratio: 16/9;
     background-color: black;
 
 }
@@ -31,13 +31,6 @@
 
 
 
-#scrolldown{
-    display: flex;
-    justify-content: center;
-    transition: .5s;
-    display: var(--display);
-
-}
 
 
 .passion::-webkit-scrollbar {
