@@ -79,100 +79,101 @@ const SecondCont = () => {
             <br></br>
             <br></br>
             <h5> Certifications :</h5>
+            <b>Automation Pro Workato</b> - Issued Aug, 2023 &nbsp;
+            <br></br>
             <b>Google It Support Proffesional</b> - Issued Feb, 2021 &nbsp;
-            <a href="https://www.credly.com/badges/72566e1c-c137-4869-a664-ba5a3cc4542d?source=linked_in_profile">
-                Crediblity Check</a>
             <br></br>
             <b>Excel Proficiency </b> - Issued Sep, 2020 &nbsp;
-            <a
-                href="https://www.linkedin.com/in/kyle-chun-6507221b1/overlay/experience/1643044794/multiple-media-viewer/?profileId=ACoAADFoFxwBdzPyXuA409XHF3GoqkFrKJGl9sk&treasuryMediaId=1635493146497">
-                Crediblity Check</a>
             </div>
+            
             <div className = 'display' style={{ display: activeTab === 'messages' ? 'block' : 'none'}} id = 'creds_Resume'>
-            <b> OnPoint Document Outsourcing </b> - Freelance &nbsp; (Oct 2020 - Sep 2021)
-                                        <br></br>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
-                                            viewBox="0 0 16 16">
-                                            <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                        </svg>
-                                        Responsible for securing local network and improving its security to meet industry standards.
+            
+            <b> Credit Karma</b> - IT Engineer Intern &nbsp; (May 2023 - Aug 2023)
+            <br></br>
+           
 
-                                        <br></br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
+                viewBox="0 0 16 16">
+                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+            </svg> Collect data on 200+ terminated employees, using a web crawler built with python.
+            <br></br>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
-                                            viewBox="0 0 16 16">
-                                            <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                        </svg> Conduct penetration testing on association's network to identify and address cyber security
-                                        threats.
-                                        <br></br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
+                viewBox="0 0 16 16">
+                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+            </svg> Data cleanup on Inventory & device management systems on 4500+ machines, automation built in python.
+            
+            <br></br>
 
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
-                                            viewBox="0 0 16 16">
-                                            <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                        </svg> Implemented quarterly security checks to identify and address new possible vulnerabilities.
-                                        <br></br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
+                viewBox="0 0 16 16">
+                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+            </svg> Automate Inventory system. Using the oomnitza API and barcode scanners.
+            
+            <br></br>
+            <br></br>
+            
+            
+            
+            <b> OnPoint Document Outsourcing </b> - IT Consultant &nbsp; (Oct 2020 - Sep 2021)
+            <br></br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
+                viewBox="0 0 16 16">
+                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+            </svg>
+            Responsible for securing local network and improving its security to meet industry standards.
 
+            <br></br>
 
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
+                viewBox="0 0 16 16">
+                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+            </svg> Conduct penetration testing on association's network to identify and address cyber security
+            threats.
+            <br></br>
 
-
-                                        <b> EMR CPR </b> - IT Technician &nbsp; (June 2022 - Present)
-                                        <br></br>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
-                                            viewBox="0 0 16 16">
-                                            <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                        </svg>
-                                        Assemble, Route, and maintain servers in data centers.
-                                        <br></br>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
-                                            viewBox="0 0 16 16">
-                                            <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                        </svg>
-                                        Troubleshoot, resolve and document help desk tickets for desktop, laptop, and mobile.
-                                        <br></br>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
-                                            viewBox="0 0 16 16">
-                                            <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                        </svg>
-                                        Deployed new workstations according to client's and management specifications.
-
-                                        <br></br>
-
-
-
-
-
-                                        <b> Technical skills :</b>
-                                        <br></br>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
-                                            viewBox="0 0 16 16">
-                                            <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                        </svg>
-                                        Proficient: C++, Python, HTML, JavaScript 
-                                        <br></br>
-
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
-                                            viewBox="0 0 16 16">
-                                            <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                        </svg>
-                                        Physical Server Assembly/maintenance, Computer assembly
-                                        <br></br>
-
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
-                                            viewBox="0 0 16 16">
-                                            <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                        </svg>
-                                        Cybersecurity, Networking, Penetration Testing, Network Security
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
+                viewBox="0 0 16 16">
+                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+            </svg> Implemented quarterly security checks to identify and address new possible vulnerabilities.
+            <br></br>
 
 
-                                        <br></br>
-                                        <br></br>
+            <br></br>
 
-                                        <div className="container w-100 h-25 text-center">
-                                            <a href="https://github.com/KChun510/Resume/blob/71a1f54c883668f63e285a51f33334c48684a2bb/Profile%20(4).pdf"
-                                            target="_blank" rel="noopener noreferrer">
-                                            <button type="button" className="btn btn-outline-primary btn-sm">Veiw full resume </button>
-                                            </a>
-                                        </div>
+
+            <b> Technical skills :</b>
+            <br></br>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
+                viewBox="0 0 16 16">
+                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+            </svg>
+            Proficient: C++, Python, HTML, JavaScript 
+            <br></br>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
+                viewBox="0 0 16 16">
+                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+            </svg>
+            Physical Server Assembly/maintenance, Computer assembly
+            <br></br>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-dot"
+                viewBox="0 0 16 16">
+                <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
+            </svg>
+            Cybersecurity, Networking, Penetration Testing, Network Security
+
+
+            <br></br>
+            <br></br>
+
+            <div className="container w-100 h-25 text-center">
+                <a href="https://github.com/KChun510/Resume/blob/71a1f54c883668f63e285a51f33334c48684a2bb/Profile%20(4).pdf"
+                target="_blank" rel="noopener noreferrer">
+                <button type="button" className="btn btn-outline-primary btn-sm">Veiw full resume </button>
+                </a>
+            </div>
             </div>
         </div>
         </div>
