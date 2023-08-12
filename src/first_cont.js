@@ -128,7 +128,7 @@ const FirstCont = () =>{
                 <div className="row mt-1 mx-4 min-vh-75">  
                     <div className="col-lg px-auto" >  
                         <h1 className="display-1">Kyle Chun</h1>
-                        <h6 className="display-6 "> Fullstack Dev & Comp Sci Student </h6>
+                        <h6 className="display-6 "> Computer Science Student </h6>
                         <div id ='video' className="ratio rounded shadow border border-3 border-dark rounded  " > 
                             <iframe title = 'my_video'  src="https://drive.google.com/file/d/1ylyMX7dNSRdGZ4AtAJ6ucKKws4FhTnG4/preview"  allowFullScreen></iframe>
                         </div>
