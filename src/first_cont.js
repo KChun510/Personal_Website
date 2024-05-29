@@ -86,7 +86,7 @@ const FirstCont = () =>{
                         html_append += "<small class='text'>"+ 
                         "<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='green' class='bi bi-dot' viewBox='0 0 16 16'>" +
                             "<path d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z'/> "+
-                            "</svg> HTML"+
+                            "</svg>HTML"+
                         "</small> ";
                         
                         break
@@ -94,7 +94,7 @@ const FirstCont = () =>{
                         html_append += "<small class='text'>"+ 
                         "<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='purple' class='bi bi-dot' viewBox='0 0 16 16'>" +
                             "<path d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z'/> "+
-                            "</svg> HTML"+
+                            "</svg>PHP"+
                         "</small> ";
                        
                         break
@@ -114,7 +114,7 @@ const FirstCont = () =>{
         }
 
         var obj_div_count = document.getElementById("small_count");
-        obj_div_count.innerHTML = '' + count+ ': Repos from github, Live API pull.'
+        obj_div_count.innerHTML = '' + count+ ': Repos from github.'
 
     
     };
@@ -137,7 +137,7 @@ const FirstCont = () =>{
                 
                 <div className="col-md mt-5 px-5"> 
                     <div className="container mt-5 px-auto">
-                    <h5 className="display-5">  Passion Projects </h5>
+                    <h5 className="display-5">  Projects </h5>
                     </div>
                     <div className="passion overflow-auto w-100 ml-3 border border-2 border-dark rounded">
                         <div className="list-group" id = 'appending_repos'>
