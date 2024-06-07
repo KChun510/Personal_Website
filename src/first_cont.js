@@ -46,6 +46,8 @@ const FirstCont = () =>{
                   'X-GitHub-Api-Version': '2022-11-28'
                 }
               })
+
+            console.log(languages['data']);
     
             for(var key in languages['data']){
                 switch(key){
@@ -96,9 +98,13 @@ const FirstCont = () =>{
                             "<path d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z'/> "+
                             "</svg>PHP"+
                         "</small> ";
-                       
                         break
-            
+                    case 'TypeScript':
+                        html_append += "<small class='text'>"+ 
+                        "<svg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='cornflowerblue' class='bi bi-dot' viewBox='0 0 16 16'>" +
+                            "<path d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z'/> "+
+                            "</svg>TypeScript"+
+                        "</small> ";
                     case 'null':
                         html_append += "N/A"
                         break
