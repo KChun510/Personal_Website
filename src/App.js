@@ -1,5 +1,5 @@
-import NavBar from './nav'
-import SecondCont from './Second_cont'
+import NavBar from './components/nav'
+import SecondCont from './second_cont'
 import FirstCont from './first_cont'
 import React from "react";
 import './App.css';
@@ -7,16 +7,16 @@ import './App.css';
 
 
 const App = () => {
-   return (
-    <div className = 'App'>
-      <NavBar/>
-      <FirstCont/>
+  return (
+    <div className='App'>
+      <NavBar />
+      <FirstCont />
       <br></br>
       <br></br>
-      <SecondCont/>
-      <div id = "spec"></div>
+      <SecondCont />
+      <div id="spec"></div>
     </div>
-    
+
   );
 }
 

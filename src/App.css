@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url('./bg.gif');
+  background-image: url('~/src/components/bg/bg.gif');
   background-size: cover;
   padding:0 ;
   margin: 0;
