@@ -18,7 +18,7 @@ const NavBar = () => {
 
 
       <div className="px-4 pt-3 bd-highlight">
-        <a href="https://www.linkedin.com/in/kyle-chun-6507221b1" className="btn" role="button" target="_blank"
+        <a href="www.linkedin.com/in/kyle-c-6507221b1" className="btn" role="button" target="_blank"
           rel="noopener noreferrer">
           <svg xmlns="http://www.w3.org/2000/svg" width={40} height={40} fill="currentColor" className="bi bi-linkedin"
             viewBox="0 0 16 16">
