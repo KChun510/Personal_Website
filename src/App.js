@@ -18,7 +18,6 @@ const App = () => {
         <br></br>
         <br></br>
         <SecondCont />
-        <div id="spec"></div>
       </QueryClientProvider>
 
     </div>

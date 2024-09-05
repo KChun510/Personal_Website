@@ -27,7 +27,7 @@ const FirstCont = () => {
                     </div>
                     <div className="passion overflow-auto w-100 ml-3 border border-2 border-dark rounded">
                         <div className="list-group" id='appending_repos'>
-                            {repos && !isLoading ? repos.map(({ name, des, url, lang }) => <RepoButton key={name} name={name} des={des} url={url} lang={lang} />) : null}
+                            {repos ? repos.map(({ name, des, url, lang }) => <RepoButton key={name} name={name} des={des} url={url} lang={lang} />) : null}
                         </div>
                     </div>
                     <div className="small_text mr-10">
