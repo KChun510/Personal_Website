@@ -1,41 +1,52 @@
 .img1 {
-
-    height: 90%;
+    height: 100%;
 }
 
 
 #second_cont{
-margin-top: 200px;
+    margin-top: 160px;
+    min-height: 100vh;
 }
 
 #info_cont{
     text-align: left;
-    padding-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 #creds_Resume{
+    text-aligh: center;
     padding-top: 50px;
 
 }
 
 #img{
-height: 50vh;
-width: 50vh;
-padding-top: 10px;
+height: 40vh;
+width: 40vh;
 }
 
 @media (max-width: 750px) {
-    .hidden-mobile {
-      display: none;
-      
+    button:hover,
+    button:focus {
+        background-color: transparent !important; /* Disable background color change on hover and focus */
+        border: none !important; /* Ensure no border is shown */
+        box-shadow: none !important; /* Ensure no shadow is shown */
     }
-  }
 
-button:hover{background-color: rgba(0, 0, 0, 0.5);}
+    .hidden-mobile {
+        display: none; /* Hide elements with the hidden-mobile class */
+    }
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 
-button:focus{background-color: rgba(0, 0, 0, 0.5);}
+button:focus{
+    background-color: rgba(0, 0, 0, 0.5);
+}
   
 .button{
     border-radius: 50%;
@@ -52,14 +63,14 @@ button:focus{background-color: rgba(0, 0, 0, 0.5);}
     width: 15%; 
     margin: 40px;
     justify-content: left;
-  }
+}
 
 .display{
     color: white;
     background-color: rgba(0, 0, 0, 0.9); ;
     width: 95vw ;
-    height: 50vh;
-
+    min-height: 50vh;
+    height: auto;
 }
 
 
