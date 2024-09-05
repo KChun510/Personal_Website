@@ -1,4 +1,4 @@
-import CreateIcon from "../../langIcons"
+import CreateIcon from "../langIcons"
 
 
 function RepoButton({ name, des, url, lang }) {
