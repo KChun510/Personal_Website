@@ -31,7 +31,7 @@ const FirstCont = () => {
                         </div>
                     </div>
                     <div className="small_text mr-10">
-                        <small>{isLoading ? <b>Loading Projects...</b> : <b> Project Count: {repos.length} </b>}</small>
+                        <small>{isLoading ? <b>Loading Public Projects...</b> : <b> Public Project Count: {repos.length} </b>}</small>
                     </div>
                 </div>
             </div>
