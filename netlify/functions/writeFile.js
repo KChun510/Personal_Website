@@ -4,7 +4,9 @@ const path = require('path');
 exports.handler = async function(event, context) {
 	try {
 		const data = JSON.parse(event.body); // Parse incoming JSON data
-		const filePath = path.join(process.cwd(), 'data', 'gitQueryLog.json');
+		//		const filePath = path.join(process.cwd(), 'data', 'gitQueryLog.json');
+		const filePath = path.resolve(__dirname, '..', 'data', 'gitQueryLog.json')
+
 
 		// Ensure the public directory exists (if not, create it)
 		const dirPath = path.dirname(filePath);

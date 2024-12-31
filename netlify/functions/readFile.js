@@ -3,13 +3,11 @@ const fs = require('fs');
 const path = require('path');
 
 
-const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 exports.handler = async () => {
-	delay(2000)
-
 	try {
 		// Resolve path to the JSON file (make sure to adjust the path to your actual file)
-		const filePath = path.join(process.cwd(), 'data', 'gitQueryLog.json');
+		//		const filePath = path.join(process.cwd(), 'data', 'gitQueryLog.json');
+		const filePath = path.resolve(__dirname, '..', 'data', 'gitQueryLog.json')
 		const fileContents = fs.readFileSync(filePath, 'utf8');
 		const jsonData = JSON.parse(fileContents);
 
