@@ -1,4 +1,6 @@
 import { Octokit } from "octokit"
+import { saveAs } from 'file-saver'
+import Papa from 'papaparse'
 
 const octokit = new Octokit({
   auth: process.env.REACT_APP_PERSONAL_WEBSITE
@@ -33,10 +35,20 @@ const extractRepoLang = async (repoName) => {
   }
 }
 
+async function readJSONFile() {
+  const response = await fetch('/.netlify/functions/readFile', {
+    method: 'GET',
+    headers: { 'Content-Type': 'application/json' },
+  });
 
-export async function pullGitInfo() {
+  const result = await response.json();
+  return result;
+}
+
+export const writeJSONFile = async () => {
   let repoArr = []  /* I.e: {repo_name : [description, url, lang's]} */
   const allGitInfo = await pullAllGitReposInfo()
+
   for (const repoIndex in allGitInfo) {
     const repo = allGitInfo[repoIndex]
     const repoLang = await extractRepoLang(repo['name'])
@@ -44,8 +56,26 @@ export async function pullGitInfo() {
 
   }
 
-  return repoArr
+  try {
+    const response = await fetch('/.netlify/functions/writeFile', {
+      method: 'POST',
+      body: JSON.stringify(repoArr),
+      headers: { 'Content-Type': 'application/json' },
+    });
+
+    const result = await response.json();
+    return result;
+  } catch (error) {
+    console.error('Error calling serverless function:', error);
+    throw new Error('Error calling serverless function');
+  }
+};
+
+export async function pullGitInfo() {
+  const allGitInfo = await readJSONFile()
+  return allGitInfo
 }
 
-export default pullGitInfo
+writeJSONFile()
+
 

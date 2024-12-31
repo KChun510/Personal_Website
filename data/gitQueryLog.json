@@ -1,0 +1,261 @@
+[
+  {
+    "name": "Quality-Of-Life-Bash-Scripts",
+    "des": "In the pursuit of eliminating mouse usage, these scripts were created.",
+    "url": "https://github.com/KChun510/Quality-Of-Life-Bash-Scripts",
+    "lang": [
+      "Shell"
+    ]
+  },
+  {
+    "name": "nvim",
+    "des": "Repo for my NeoVim Config",
+    "url": "https://github.com/KChun510/nvim",
+    "lang": [
+      "Lua"
+    ]
+  },
+  {
+    "name": "wezterm",
+    "des": "Public config for Wezterm.",
+    "url": "https://github.com/KChun510/wezterm",
+    "lang": [
+      "Lua"
+    ]
+  },
+  {
+    "name": "TermTris_Tetris-In-the-CLI",
+    "des": "A recreation of Tetris that runs in a Terminal/Command Prompt!",
+    "url": "https://github.com/KChun510/TermTris_Tetris-In-the-CLI",
+    "lang": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Personal_Website",
+    "des": "V2 of personal website. Re-built the using ReactJS + Bootstrap.",
+    "url": "https://github.com/KChun510/Personal_Website",
+    "lang": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "GrayHat_Studies",
+    "des": "Journey of deeper understanding...",
+    "url": "https://github.com/KChun510/GrayHat_Studies",
+    "lang": [
+      "PowerShell",
+      "Python",
+      "C",
+      "HCL",
+      "Assembly",
+      "Shell",
+      "Makefile",
+      "Rust",
+      "Dockerfile",
+      "HTML",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "LeetCode_Solutions",
+    "des": "A collection of all my leet code solved problems.",
+    "url": "https://github.com/KChun510/LeetCode_Solutions",
+    "lang": [
+      "Python",
+      "C++",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "Precision",
+    "des": "A web application thats engineered to produce quick and precise response's, using natural language to sql.",
+    "url": "https://github.com/KChun510/Precision",
+    "lang": [
+      "JavaScript",
+      "TypeScript",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "Web-Assets",
+    "des": "Assets used on personal website.",
+    "url": "https://github.com/KChun510/Web-Assets",
+    "lang": []
+  },
+  {
+    "name": "UCI_cPP_Prep",
+    "des": "Prepping for UCI 45c C++ as a second language Exam. (Credit by Exam)",
+    "url": "https://github.com/KChun510/UCI_cPP_Prep",
+    "lang": [
+      "C++",
+      "Makefile",
+      "C"
+    ]
+  },
+  {
+    "name": "Cpp-Linked-List-Practice",
+    "des": "As part of my exam prep, taking time to get a understanding of cPP linked list.",
+    "url": "https://github.com/KChun510/Cpp-Linked-List-Practice",
+    "lang": [
+      "C++"
+    ]
+  },
+  {
+    "name": "Node.JS-SQLITE-Connector",
+    "des": "A simple connector, from Node.JS to local SQLDB. Contains two files, for appending to two separate tables.",
+    "url": "https://github.com/KChun510/Node.JS-SQLITE-Connector",
+    "lang": [
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "TS_FastFoodItem_Scraper",
+    "des": "Needed test data for a side project. Using TypeScript + selenium, I scraped Wendy's, BurgerKing, and TacoBell for menu/item data.",
+    "url": "https://github.com/KChun510/TS_FastFoodItem_Scraper",
+    "lang": [
+      "TypeScript"
+    ]
+  },
+  {
+    "name": "itToolset_GUI",
+    "des": "A GUI, with JAMF api calls in the background. Developed to abstract the code from querying data in JAMF. Meant to give non-coders on the team ability to pull sorted data.",
+    "url": "https://github.com/KChun510/itToolset_GUI",
+    "lang": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Dungeon-Mini-Game",
+    "des": "Using CPP classes, I created a turn based game. Player Vs. Creature, text based game in terminal.",
+    "url": "https://github.com/KChun510/Dungeon-Mini-Game",
+    "lang": [
+      "C++"
+    ]
+  },
+  {
+    "name": "Pandas_CSV_School_Data",
+    "des": "CSV files used for my Ed_Plan_Builder website, contains data on school transfer requirements. ",
+    "url": "https://github.com/KChun510/Pandas_CSV_School_Data",
+    "lang": []
+  },
+  {
+    "name": "BankingCalculator",
+    "des": "A simple app, that calculates Interest rates on different types of loans.",
+    "url": "https://github.com/KChun510/BankingCalculator",
+    "lang": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Breathing",
+    "des": "A web-page component, with a breath in and breath out animation. Used for \"Bee like coders\" hackathon.",
+    "url": "https://github.com/KChun510/Breathing",
+    "lang": [
+      "HTML",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "Persnoal_Website_v1",
+    "des": "First Iteration of my personal website. ",
+    "url": "https://github.com/KChun510/Persnoal_Website_v1",
+    "lang": [
+      "HTML"
+    ]
+  },
+  {
+    "name": "Dice_Game",
+    "des": "Python Object Oriented Programming Class project. Turn based dice rolling game.",
+    "url": "https://github.com/KChun510/Dice_Game",
+    "lang": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Ants_Game",
+    "des": "Python Object Oriented Programming Class project. Plant Vs. Zombies style game.",
+    "url": "https://github.com/KChun510/Ants_Game",
+    "lang": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Get_Jamf_asset_status",
+    "des": "\"Jamf\" - Device Management System. Written in python and using selenium library, navigate through JAMF's UI and gather asset statuses rapidly, search asset by serial number. ",
+    "url": "https://github.com/KChun510/Get_Jamf_asset_status",
+    "lang": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Get_Oomnitza_Status",
+    "des": "\"Oomnitza\" - Enterprise Technology Management. Written in python using the selenium library, navigate through Oomnitza UI to collect asset statuses.  ",
+    "url": "https://github.com/KChun510/Get_Oomnitza_Status",
+    "lang": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Ed_Plan_Builder_v2",
+    "des": "Ed_Plan_Builder, an edd plan builder for college transfer students. Inform students on the transfer process and build the most effective transfer plan.",
+    "url": "https://github.com/KChun510/Ed_Plan_Builder_v2",
+    "lang": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
+    "name": "Ed_Plan_Builder_v1",
+    "des": "Ed_Plan_Builder, an edd plan builder for college transfer students. Inform students on the transfer process and build the most effective transfer plan. ",
+    "url": "https://github.com/KChun510/Ed_Plan_Builder_v1",
+    "lang": [
+      "HTML",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "Inventory_Scanner",
+    "des": "Using a Barcode Scanner combined with python, this script allows you to check if the asset is in your inventory system. Import inventory assets Via csv, and use any barcode scanner. ",
+    "url": "https://github.com/KChun510/Inventory_Scanner",
+    "lang": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Mass_Un-assign_Jamf",
+    "des": "\"Jamf\" device management system. Using python and selenium library, un-assign users from laptops in mass. 50+ un-assign <1min.",
+    "url": "https://github.com/KChun510/Mass_Un-assign_Jamf",
+    "lang": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Bee-Like-Coders-Hackathon",
+    "des": "Landing page for BeeLikeCoderz hackathon ",
+    "url": "https://github.com/KChun510/Bee-Like-Coders-Hackathon",
+    "lang": [
+      "HTML",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "Build",
+    "des": "Side page for Health Hive",
+    "url": "https://github.com/KChun510/Build",
+    "lang": [
+      "HTML",
+      "JavaScript"
+    ]
+  },
+  {
+    "name": "Hackathon_CSV_BeeLikeCoders",
+    "des": "CSV File containing physical activities in bay area, Workouts videos, and Healthy/Easy Recipes",
+    "url": "https://github.com/KChun510/Hackathon_CSV_BeeLikeCoders",
+    "lang": []
+  }
+]

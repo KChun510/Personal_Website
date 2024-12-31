@@ -1,5 +1,5 @@
 import './first_cont.css';
-import pullGitInfo from '../actions';
+import { pullGitInfo } from '../actions';
 import RepoButton from './components/repoButton';
 import { useQuery } from 'react-query';
 
@@ -17,6 +17,9 @@ const FirstCont = () => {
                     <h6 className="display-6">Computer Science Student</h6>
                     <div id='video' className="ratio rounded shadow border border-3 border-dark rounded">
                         <iframe title='my_video' src="https://drive.google.com/file/d/1ylyMX7dNSRdGZ4AtAJ6ucKKws4FhTnG4/preview" allowFullScreen></iframe>
+                    </div>
+                    <div className="small_text">
+                        <small>{<b> Uploaded: 06/01/2020  </b>}</small>
                     </div>
 
                 </div>
