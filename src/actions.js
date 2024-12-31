@@ -1,6 +1,4 @@
 import { Octokit } from "octokit"
-import { saveAs } from 'file-saver'
-import Papa from 'papaparse'
 
 const octokit = new Octokit({
   auth: process.env.REACT_APP_PERSONAL_WEBSITE
