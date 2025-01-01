@@ -1,6 +1,6 @@
 [build]
   publish = "build"  # This is where your React app will be built to (change if necessary)
-  functions = "netlify/functions/read_and_write"  # Directory where your serverless functions are located
+  functions = "netlify/functions"  # Directory where your serverless functions are located
 
 [functions]
   directory = "netlify/functions"  # Path to your functions directory
