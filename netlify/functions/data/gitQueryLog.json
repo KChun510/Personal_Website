@@ -1,5 +1,15 @@
 [
   {
+    "name": "Personal_Website",
+    "des": "V2 of personal website. Re-built the using ReactJS + Bootstrap.",
+    "url": "https://github.com/KChun510/Personal_Website",
+    "lang": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ]
+  },
+  {
     "name": "Quality-Of-Life-Bash-Scripts",
     "des": "In the pursuit of eliminating mouse usage, these scripts were created.",
     "url": "https://github.com/KChun510/Quality-Of-Life-Bash-Scripts",
@@ -29,16 +39,6 @@
     "url": "https://github.com/KChun510/TermTris_Tetris-In-the-CLI",
     "lang": [
       "Python"
-    ]
-  },
-  {
-    "name": "Personal_Website",
-    "des": "V2 of personal website. Re-built the using ReactJS + Bootstrap.",
-    "url": "https://github.com/KChun510/Personal_Website",
-    "lang": [
-      "JavaScript",
-      "CSS",
-      "HTML"
     ]
   },
   {
