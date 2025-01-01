@@ -6,7 +6,7 @@ exports.handler = async function(event, context) {
 		const data = JSON.parse(event.body); // Parse incoming JSON data
 		//		const filePath = path.join(process.cwd(), 'data', 'gitQueryLog.json');
 		//const filePath = path.resolve(__dirname, '..', 'data', 'gitQueryLog.json')
-		const filePath = require.resolve('./data/gitQueryLog.json'); // Relative path to the JSON file within the function's folder
+		const filePath = require.resolve('./gitQueryLog.json'); // Relative path to the JSON file within the function's folder
 
 
 
