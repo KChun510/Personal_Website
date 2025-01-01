@@ -5,7 +5,7 @@ const path = require('path');
 
 exports.handler = async () => {
 	try {
-		const filePath = fs.readFileSync(require.resolve('./data/gitQueryLog.json'));
+		const filePath = require.resolve('./data/gitQueryLog.json')
 
 		const fileContents = fs.readFileSync(filePath, 'utf8');
 		const jsonData = JSON.parse(fileContents);
