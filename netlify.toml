@@ -1,8 +1,7 @@
 [build]
-  publish = "build"  # This is where your React app will be built to (change if necessary)
-  functions = "netlify/functions"  # Directory where your serverless functions are located
+  publish = "build"
+  functions = "netlify/functions"
 
 [functions]
-  directory = "netlify/functions"  # Path to your functions directory
-  # You can set other options like timeouts, but this is the basic structure
+  included_files = ["netlify/functions/data/gitQueryLog.json"]
 
