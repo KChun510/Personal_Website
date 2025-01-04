@@ -252,15 +252,6 @@
     ]
   },
   {
-    "name": "Build",
-    "des": "Side page for Health Hive",
-    "url": "https://github.com/KChun510/Build",
-    "lang": [
-      "HTML",
-      "JavaScript"
-    ]
-  },
-  {
     "name": "Hackathon_CSV_BeeLikeCoders",
     "des": "CSV File containing physical activities in bay area, Workouts videos, and Healthy/Easy Recipes",
     "url": "https://github.com/KChun510/Hackathon_CSV_BeeLikeCoders",
