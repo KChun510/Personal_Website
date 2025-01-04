@@ -1,13 +1,5 @@
 [
   {
-    "name": "Twitch-API-TS-Node",
-    "des": "Quick Start Guide/ boiler plate code to get you started making API request to Twitch.  Including Automatic OAuth 2.0 Access Token Refreshing.",
-    "url": "https://github.com/KChun510/Twitch-API-TS-Node",
-    "lang": [
-      "TypeScript"
-    ]
-  },
-  {
     "name": "Personal_Website",
     "des": "V2 of personal website. Re-built the using ReactJS + Bootstrap.",
     "url": "https://github.com/KChun510/Personal_Website",
@@ -15,6 +7,14 @@
       "JavaScript",
       "CSS",
       "HTML"
+    ]
+  },
+  {
+    "name": "Twitch-API-TS-Node",
+    "des": "Quick Start Guide/ boiler plate code to get you started making API request to Twitch.  Including Automatic OAuth 2.0 Access Token Refreshing.",
+    "url": "https://github.com/KChun510/Twitch-API-TS-Node",
+    "lang": [
+      "TypeScript"
     ]
   },
   {
@@ -258,6 +258,38 @@
     "lang": [
       "HTML",
       "JavaScript"
+    ]
+  },
+  {
+    "name": "Hackathon_CSV_BeeLikeCoders",
+    "des": "CSV File containing physical activities in bay area, Workouts videos, and Healthy/Easy Recipes",
+    "url": "https://github.com/KChun510/Hackathon_CSV_BeeLikeCoders",
+    "lang": []
+  },
+  {
+    "name": "Automatic_Switch",
+    "des": "Got an itch to do real machine programming. The following scripts are meant for control of servo motors.",
+    "url": "https://github.com/KChun510/Automatic_Switch",
+    "lang": [
+      "Python"
+    ]
+  },
+  {
+    "name": "Facial-Recognition",
+    "des": "A c++ project, utilizing the open CV library.",
+    "url": "https://github.com/KChun510/Facial-Recognition",
+    "lang": [
+      "C++"
+    ]
+  },
+  {
+    "name": "EnvironmentTrivia",
+    "des": "Ecohacks project 2022",
+    "url": "https://github.com/KChun510/EnvironmentTrivia",
+    "lang": [
+      "HTML",
+      "JavaScript",
+      "CSS"
     ]
   }
 ]
