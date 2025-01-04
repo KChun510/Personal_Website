@@ -10,6 +10,7 @@ const pullAllGitReposInfo = async () => {
       username: 'KChun510',
       sort: 'updated',
       direction: 'dsc',
+      per_page: 100,
       headers: {
         'X-Github-Api-Version': '2022-11-28'
       }
