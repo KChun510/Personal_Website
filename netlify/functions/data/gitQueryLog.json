@@ -1,5 +1,13 @@
 [
   {
+    "name": "Twitch-API-TS-Node",
+    "des": "Quick Start Guide/ boiler plate code to get you started making API request to Twitch.  Including Automatic OAuth 2.0 Access Token Refreshing.",
+    "url": "https://github.com/KChun510/Twitch-API-TS-Node",
+    "lang": [
+      "TypeScript"
+    ]
+  },
+  {
     "name": "Personal_Website",
     "des": "V2 of personal website. Re-built the using ReactJS + Bootstrap.",
     "url": "https://github.com/KChun510/Personal_Website",
@@ -251,11 +259,5 @@
       "HTML",
       "JavaScript"
     ]
-  },
-  {
-    "name": "Hackathon_CSV_BeeLikeCoders",
-    "des": "CSV File containing physical activities in bay area, Workouts videos, and Healthy/Easy Recipes",
-    "url": "https://github.com/KChun510/Hackathon_CSV_BeeLikeCoders",
-    "lang": []
   }
 ]
